@@ -405,7 +405,7 @@ Example:
 func @abort()
 
 // A function with internal linkage.
-func internal @count(%x: i64) -> (i64)
+func internal @count(%x: i64) -> (i64) {
   return %x : i64
 }
 ```
